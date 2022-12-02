@@ -1,17 +1,25 @@
 div(class='ed-container')
 	div(class='ed-item')
 		div(class='accordion-container')
-			- for(let i = 0; i < promos.length; i++)
-				-if(promos[i].a)
-					a(class="a-bonos" href=promos[i].a) 
-						h2= promos[i].title
-						button(class='accordion-container__btn-acc')
-							img(src=`${promos[i].link}`, alt=`${promos[i].name}`)
+			h2
+			button(class='accordion-container__btn-acc')
+				img(src='assets/img/Bono-Bienvenida.png', alt=`bonos-bienvenida`)
+			div(class='accordion-container__panel')
+				include:markdown-it(html) ../md/bono-de-bienvenida.md
+			h2
+			button(class='accordion-container__btn-acc')
+				img(src=`assets/img/Bono-Recarga.png`, alt=`bono-recarga`)
+			div(class='accordion-container__panel')
+				include:markdown-it(html) ../md/bono-de-recarga.md
+			h2
+			button(class='accordion-container__btn-acc')
+				img(src=`assets/img/Bono-Reembolso.png`, alt=`bono-rembolso`)
+			div(class='accordion-container__panel')
+				include:markdown-it(html) ../md/bono-de-reembolso.md
+			h2
+			a(class="a-bonos" href="caballos.html") 
+				button(class='accordion-container__btn-acc')
+					img(src=`assets/img/Bono-caballos.png`, alt=`bono-caballos`)
 						
-				-else
-					h2= promos[i].title
-					button(class='accordion-container__btn-acc')
-						img(src=`${promos[i].link}`, alt=`${promos[i].name}`)
-					div(class='accordion-container__panel')
 			div(class="sign-up-container")
 				a(href="register.html" class="btn sign-up sign-up_main") Registrate ya

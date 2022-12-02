@@ -2,7 +2,6 @@ import {tnsSingleMobile, tnsSingleDesktop, tnsSinglePrefooter, tnsSingleCasino} 
 import {topNav} from './components/topNav';
 import {galery} from './components/galery';
 import {accordion} from './components/acordeon';
-import {mdInner} from './components/md-compiler';
 import {tabs} from './components/tabs';
 import {modal} from './components/modal-sign-up';
 import initAcc from './components/dropdown';
@@ -19,7 +18,6 @@ import initAcc from './components/dropdown';
 		galery();
 	}else if (document.body.classList.contains('bonos')) {
 		// functions here
-		mdInner('./md', 'promos','accordion-container__panel');
 		accordion();
 	}else if (document.body.classList.contains('banca')) {
 		// functions here

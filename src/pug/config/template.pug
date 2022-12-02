@@ -11,7 +11,7 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 		link(rel="icon" type="image/jpg" href="assets/img/icon_192.png")
 		link(rel="stylesheet" href="assets/css/styles.css")
 		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
-	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
+	body(class=currentPage, itemscope itemtype="http://schema.org/pngage")
 		//-here start the Main Header
 		header(class='main-header')
 			include ../components/top-nav
@@ -29,6 +29,4 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 		script(src='https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js')
 		script(src="assets/js/scripts-min.js")
 		script(src='https://images.betimages.com/Betslip/js/quick.login.min.js')
-		script(src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous")
-		script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous")
 		block scripts

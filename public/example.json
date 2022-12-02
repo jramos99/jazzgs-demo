@@ -45,33 +45,33 @@
 
 	"slides":[
 		{
-			"link"			: 	"assets/img/slider-sports-mobile.webp",
+			"link"			: 	"assets/img/slider-sports-mobile.png",
 			"name"			:	"deportes.html"
 		},
 		{
-			"link"			: 	"assets/img/slider-casino-mobile.webp",
+			"link"			: 	"assets/img/slider-casino-mobile.png",
 			"name"			:	"casino.html"
 		},
 		{
-			"link"			: 	"assets/img/slider-caballos-mobile.webp",
+			"link"			: 	"assets/img/slider-caballos-mobile.png",
 			"name"			:	"caballos.html"
 		}
 	],
 	"slidesDesktop":[
 		{
-			"link"			: 	"assets/img/slider-sports.webp",
+			"link"			: 	"assets/img/slider-sports.png",
 			"name"			:	"banners-bienvenida",
 			"title"			:	"Bono de Reembolso",
 			"md"			:	"bono-de-reembolso"
 		},
 		{
-			"link"			: 	"assets/img/slider-casino.webp",
+			"link"			: 	"assets/img/slider-casino.png",
 			"name"			:	"banners-casino",
 			"title"			:	"Bono de Casino 100%",
 			"md"			:	"bono-de-casino"
 		},
 		{
-			"link"			: 	"assets/img/slider-caballos.webp",
+			"link"			: 	"assets/img/slider-caballos.png",
 			"name"			:	"banners-casino",
 			"title"			:	"Bono de Casino 100%",
 			"md"			:	"bono-de-casino2"
@@ -95,52 +95,52 @@
 		},
 		{
 			"video"			: "https://www.youtube.com/embed/F0TEcboPJ5w",
-			"img"			: "assets/img/unselect2.webp",
+			"img"			: "assets/img/unselect2.png",
 			"name"			: "¿Como apostar en linea?"
 		}
 	],
 
 	"dudas":[
 		{
-			"link"			: "assets/img/gift.webp",
+			"link"			: "assets/img/gift.png",
 			"name"			: "Promociones y Bonos",
 			"a"				: "bonos.html"
 		},
 		{
-			"link"			: "assets/img/wallet.webp",
+			"link"			: "assets/img/wallet.png",
 			"name"			: "Banca",
 			"a"				: "banca.html"
 		},
 		{
-			"link"			: "assets/img/blog.webp",
+			"link"			: "assets/img/blog.png",
 			"name"			: "Agencias",
 			"a"				: "agencias.html"
 		}
 	],
 	"deportes": [
 		{
-			"img"			:"assets/img/poker-online.webp",
+			"img"			:"assets/img/poker-online.png",
 			"name"			:"DEPORTES",
 			"link"			:"deportes.html"
 
 		},
 		{
-			"img"			:"assets/img/apuestas-deportivas.webp",
+			"img"			:"assets/img/apuestas-deportivas.png",
 			"name"			:"DEPORTES EN VIVO",
 			"link"			:"apuestas-en-vivo.html"
 		},
 		{
-			"img"			:"assets/img/casino.webp",
+			"img"			:"assets/img/casino.png",
 			"name"			:"CASINO",
 			"link"			:"casino.html"
 		},
 		{
-			"img"			:"assets/img/caballos.webp",
+			"img"			:"assets/img/caballos.png",
 			"name"			:"CASINO EN VIVO",
 			"link"			:"caballos.html"
 		},
 		{
-			"img"			:"assets/img/afiliados.webp",
+			"img"			:"assets/img/afiliados.png",
 			"name"			:"ESPORTS",
 			"link"			:"#"
 		}
@@ -215,7 +215,7 @@
 	 ],
 	 "numeros":[
 		{
-			"pais"			:"assets/img/cr.webp",
+			"pais"			:"assets/img/cr.png",
 			"codigo"		:"+506"
 		}
 	 ],
@@ -243,19 +243,19 @@
 	 ],
 	 "prefooter":[
 			{
-				"img"			:"assets/img/crypto.webp"
+				"img"			:"assets/img/crypto.png"
 			},
 			{
-				"img"			:"assets/img/mastercard.webp"
+				"img"			:"assets/img/mastercard.png"
 			},
 			{
-				"img"			:"assets/img/money-gram.webp"
+				"img"			:"assets/img/money-gram.png"
 			},
 			{
-				"img"			:"assets/img/ria.webp"
+				"img"			:"assets/img/ria.png"
 			},
 			{
-				"img"			:"assets/img/safety-pay.webp"
+				"img"			:"assets/img/safety-pay.png"
 			}
 	 ],
 	 "banca":[
@@ -263,22 +263,22 @@
 			"retiros":[
 				{
 					"name":"Envío de dinero",
-					"img":"assets/img/RiaMoneygram.webp",
+					"img":"assets/img/RiaMoneygram.png",
 					"list":["Retiro Mínimo de $100 usd", "Retiro Máximo de $400 usd", "Comisión variable dependiendo del monto.", "Contáctanos en el departamento de “banca en línea” en el chat antes de las 11am hora del este para procesar tu envío el mismo día."]
 				},
 				{
 					"name":"Cripto Moneda",
-					"img":"assets/img/logosmetodosdepago-01.webp",
+					"img":"assets/img/logosmetodosdepago-01.png",
 					"list":["Retiro Mínimo $50 usd", "Retiro Máximo Diario $2500 usd", "Retiro Máximo Semanal $5000 usd", "Contáctanos en el departamento de “banca en línea” en el chat para más información."]
 				},
 				{
 					"name":"Safety Pay",
-					"img":"assets/img/logosmetodosdepago-06.webp",
+					"img":"assets/img/logosmetodosdepago-06.png",
 					"list":["Deposito Mínimo de $25", "Facil metodo de pago en tiendas de conveniencia o bancos de tu zona.", "para mas información contactar al chat en linea departamente de banca."]
 				},
 				{
 					"name":"Transferencias Bancarias",
-					"img":"assets/img/transfer.webp",
+					"img":"assets/img/transfer.png",
 					"list":["Se cuenta con interfaz para que lo jugadores puedan reportar sus transferencias por medio de la plataforma y el administrador pueda aprobarlas mediante la misma interfaz y herramientas brindadas por JazzGS."]
 				}
 			]
@@ -287,27 +287,27 @@
 			"depositos":[
 				{
 					"name":"Cripto Moneda",
-					"img":"assets/img/logosmetodosdepago-01.webp",
+					"img":"assets/img/logosmetodosdepago-01.png",
 					"list":["Deposito Mínimo de $50 usd (Montos inferiores a $50 usd tienen un recargo de $2 usd)","Contáctanos en el departamento de banca en línea en el chat para más información"]
 				},
 				{
 					"name":"Tarjetas de crédito",
-					"img":"assets/img/logos-pagos-02-02.webp",
+					"img":"assets/img/logos-pagos-02-02.png",
 					"list":["Depósito Mínimo de $50 usd Contáctanos en el departamento de banca en línea en el chat para más información."]
 				},
 				{
 					"name":"Envio de dinero",
-					"img":"assets/img/RiaMoneygram.webp",
+					"img":"assets/img/RiaMoneygram.png",
 					"list":["Deposito Mínimo de $100 Cargo de $10 reembolsable Tiempo de acreditación 20-25 minutos (dentro del horario del proveedor) Contáctanos en el departamento de banca en línea en el chat para más información."]
 				},
 				{
 					"name":"Safety Pay",
-					"img":"assets/img/logosmetodosdepago-06.webp",
+					"img":"assets/img/logosmetodosdepago-06.png",
 					"list":["Deposito Mínimo de $25 Facil metodo de pago en tiendas de conveniencia o bancos de tu zona. para mas información contactar al chat en linea departamente de banca"]
 				},
 				{
 					"name":"Transferencias Bancarias",
-					"img":"assets/img/transfer.webp",
+					"img":"assets/img/transfer.png",
 					"list":["Se cuenta con interfaz para que lo jugadores puedan reportar sus transferencias por medio de la plataforma y el administrador pueda aprobarlas mediante la misma interfaz y herramientas brindadas por JazzGS."]
 				}
 			]
@@ -317,150 +317,150 @@
 		{
 			"galery":[
 				{
-					"img":"assets/img/slot-exchange.webp"
+					"img":"assets/img/slot-exchange.png"
 				},
 				{
-					"img":"assets/img/endorphina.webp"
+					"img":"assets/img/endorphina.png"
 				},
 				{
-					"img":"assets/img/betsoft.webp"
+					"img":"assets/img/betsoft.png"
 				},
 				{
-					"img":"assets/img/nucleus.webp"
+					"img":"assets/img/nucleus.png"
 				},
 				{
-					"img":"assets/img/conceptgaming.webp"
+					"img":"assets/img/conceptgaming.png"
 				},
 				{
-					"img":"assets/img/platinum.webp"
+					"img":"assets/img/platinum.png"
 				},
 				{
-					"img":"assets/img/salsa.webp"
+					"img":"assets/img/salsa.png"
 				},
 				{
-					"img":"assets/img/tomhorn.webp"
+					"img":"assets/img/tomhorn.png"
 				},
 				{
-					"img":"assets/img/ezugi.webp"
+					"img":"assets/img/ezugi.png"
 				},
 				{
-					"img":"assets/img/vig.webp"
+					"img":"assets/img/vig.png"
 				},
 				{
-					"img":"assets/img/vivogaming.webp"
+					"img":"assets/img/vivogaming.png"
 				},
 				{
-					"img":"assets/img/betgamestv.webp"
+					"img":"assets/img/betgamestv.png"
 				},
 				{
-					"img":"assets/img/evolutiongaming.webp"
+					"img":"assets/img/evolutiongaming.png"
 				},
 				{
-					"img":"assets/img/evoplay.webp"
+					"img":"assets/img/evoplay.png"
 				},
 				{
-					"img":"assets/img/spinomenal.webp"
+					"img":"assets/img/spinomenal.png"
 				},
 				{
-					"img":"assets/img/booongo.webp"
+					"img":"assets/img/booongo.png"
 				},
 				{
-					"img":"assets/img/wazdan.webp"
+					"img":"assets/img/wazdan.png"
 				},
 				{
-					"img":"assets/img/irondog.webp"
+					"img":"assets/img/irondog.png"
 				},
 				{
-					"img":"assets/img/1x2gaming.webp"
+					"img":"assets/img/1x2gaming.png"
 				},
 				{
-					"img":"assets/img/sagaming.webp"
+					"img":"assets/img/sagaming.png"
 				},
 				{
-					"img":"assets/img/booming.webp"
+					"img":"assets/img/booming.png"
 				},
 				{
-					"img":"assets/img/noble.webp"
+					"img":"assets/img/noble.png"
 				},
 				{
-					"img":"assets/img/felix.webp"
+					"img":"assets/img/felix.png"
 				},
 				{
-					"img":"assets/img/gamshy.webp"
+					"img":"assets/img/gamshy.png"
 				},
 				{
-					"img":"assets/img/revolver.webp"
+					"img":"assets/img/revolver.png"
 				},
 				{
-					"img":"assets/img/goldenrace.webp"
+					"img":"assets/img/goldenrace.png"
 				},
 				{
-					"img":"assets/img/nsoft.webp"
+					"img":"assets/img/nsoft.png"
 				},
 				{
-					"img":"assets/img/Elik.webp"
+					"img":"assets/img/Elik.png"
 				},
 				{
-					"img":"assets/img/konect.webp"
+					"img":"assets/img/konect.png"
 				},
 				{
-					"img":"assets/img/Thunderkick.webp"
+					"img":"assets/img/Thunderkick.png"
 				},
 				{
-					"img":"assets/img/live-slots.webp"
+					"img":"assets/img/live-slots.png"
 				},
 				{
-					"img":"assets/img/jackpot.webp"
+					"img":"assets/img/jackpot.png"
 				}
 			]
 		},
 		{
 			"galery":[
 				{
-					"img":"assets/img/betgamestv.webp"
+					"img":"assets/img/betgamestv.png"
 				},
 				{
-					"img":"assets/img/vivogaming.webp"
+					"img":"assets/img/vivogaming.png"
 				},
 				{
-					"img":"assets/img/evolutiongaming.webp"
+					"img":"assets/img/evolutiongaming.png"
 				},
 				{
-					"img":"assets/img/ezugi.webp"
+					"img":"assets/img/ezugi.png"
 				}
 			]
 		},
 		{
 			"galery":[
 				{
-					"img":"assets/img/sugar-pop-1.webp"
+					"img":"assets/img/sugar-pop-1.png"
 				},
 				{
-					"img":"assets/img/FireCrackers-1.webp"
+					"img":"assets/img/FireCrackers-1.png"
 				},
 				{
-					"img":"assets/img/Rollin-Trolls-1.webp"
+					"img":"assets/img/Rollin-Trolls-1.png"
 				},
 				{
-					"img":"assets/img/sugar-pop2-1.webp"
+					"img":"assets/img/sugar-pop2-1.png"
 				},
 				{
-					"img":"assets/img/FruitZen.webp"
+					"img":"assets/img/FruitZen.png"
 				},
 				{
 					"img":"assets/img/Book-of-santa-1.jpg"
 				},
 				{
-					"img":"assets/img/Jingle-spin-1.webp"
+					"img":"assets/img/Jingle-spin-1.png"
 				},
 				{
-					"img":"assets/img/A-christmas-carol-1.webp"
+					"img":"assets/img/A-christmas-carol-1.png"
 				},
 				{
-					"img":"assets/img/12-Animals-1.webp"
+					"img":"assets/img/12-Animals-1.png"
 				},
 				{
-					"img":"assets/img/4-season-1.webp"
+					"img":"assets/img/4-season-1.png"
 				}
 				
 			]
@@ -474,19 +474,19 @@
 					"name": "Video Poker",
 					"games":[
 						{
-							"img": "assets/img/DeucesAndJokers.webp",
+							"img": "assets/img/DeucesAndJokers.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/BonusPoker.webp",
+							"img": "assets/img/BonusPoker.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/FiveDrawPoker.webp",
+							"img": "assets/img/FiveDrawPoker.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/DoubleBonusPoker.webp",
+							"img": "assets/img/DoubleBonusPoker.png",
 							"link":"#"
 						}
 					]
@@ -500,19 +500,19 @@
 					"name": "Video Poker",
 					"games":[
 						{
-							"img": "assets/img/Double-Bonus.webp",
+							"img": "assets/img/Double-Bonus.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/Joker-Poker.webp",
+							"img": "assets/img/Joker-Poker.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/Bonus-Poker.webp",
+							"img": "assets/img/Bonus-Poker.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/All-American-Video-Poker.webp",
+							"img": "assets/img/All-American-Video-Poker.png",
 							"link":"#"
 						}
 					]
@@ -526,19 +526,19 @@
 					"name": "Video Poker",
 					"games":[
 						{
-							"img": "assets/img/logo300.webp",
+							"img": "assets/img/logo300.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/logo301.webp",
+							"img": "assets/img/logo301.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/logo302.webp",
+							"img": "assets/img/logo302.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/logo303.webp",
+							"img": "assets/img/logo303.png",
 							"link":"#"
 						}
 					]
@@ -552,19 +552,19 @@
 					"name": "Video Poker",
 					"games":[
 						{
-							"img": "assets/img/MagicPoker.webp",
+							"img": "assets/img/MagicPoker.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/CaribbeanBeachPoke.webp",
+							"img": "assets/img/CaribbeanBeachPoke.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/AmericanPokerV.webp",
+							"img": "assets/img/AmericanPokerV.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/AmericanPokerGold.webp",
+							"img": "assets/img/AmericanPokerGold.png",
 							"link":"#"
 						}
 					]
@@ -578,19 +578,19 @@
 					"name": "Video Poker",
 					"games":[
 						{
-							"img": "assets/img/joker-poker2.webp",
+							"img": "assets/img/joker-poker2.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/betters.webp",
+							"img": "assets/img/betters.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/jack-better.webp",
+							"img": "assets/img/jack-better.png",
 							"link":"#"
 						},
 						{
-							"img": "assets/img/royal.webp",
+							"img": "assets/img/royal.png",
 							"link":"#"
 						}
 					]
@@ -600,13 +600,13 @@
 	 ],
 	 "blog":[
 		{
-			"img":"assets/img/basket.webp",
+			"img":"assets/img/basket.png",
 			"link":"#",
 			"title": "NBA 2K20: How To Download Ultra-Realistic Custom Draft Class",
 			"content": "When NBA 2K21 releases in September, the draft will still be a month or so away, and we can only hope for a roster update that puts rookies and free agents on their teams."
 		},
 		{	
-			"img":"assets/img/ronaldo.webp",
+			"img":"assets/img/ronaldo.png",
 			"link":"#",
 			"title": "Cristiano Ronaldo is first footballer to earn more than $1 billion",
 			"content": "Portuguese superstar Cristiano Ronaldo has become the first footballer to earn more than $1 billion (€885m), according to Forbes magazine."
@@ -620,8 +620,8 @@
 	 ],
 	 "acercaDeNosotros":[
 			{
-				"imgMobile": "assets/img/acerca-mobile.webp",
-				"imgDesktop": "assets/img/acerca-desktop.webp",
+				"imgMobile": "assets/img/acerca-mobile.png",
+				"imgDesktop": "assets/img/acerca-desktop.png",
 				"titulo": "¿QUIÉNES SOMOS JAZZ GAMING SOLUTIONS?",
 				"parrafo": "Con más de 34 años en el negocio de las apuestas nuestra prioridad siempre ha sido una: EL JUGADOR.",
 				"parrafo2": "Nuestra meta es brindar a los jugadores una experiencia única con novedosos productos y excelente servicio al cliente.",
@@ -631,8 +631,8 @@
 	 ],
 	 "planDeLealtad":[
 		{
-			"imgMobile": "assets/img/plan.webp",
-			"imgDesktop": "assets/img/plan-desktop.webp",
+			"imgMobile": "assets/img/plan.png",
+			"imgDesktop": "assets/img/plan-desktop.png",
 			"titulo": "PROGRAMA DE LEALTAD",
 			"p1": "Nuestra fase introductoria del programa de acumulación de puntos ha concluido.",
 			"p2":"A continuación se detalla la tabla de conversión de acuerdo al nivel o rating que en esa semana tenga el jugador:",
@@ -892,22 +892,22 @@
 		],
 		"promos":[
 			{
-				"link"			: 	"assets/img/Bono-Bienvenida.webp",
+				"link"			: 	"assets/img/Bono-Bienvenida.png",
 				"name"			:	"bonos-bienvenida",
 				"md"			:	"bono-de-bienvenida"
 			},
 			{
-				"link"			: 	"assets/img/Bono-Recarga.webp",
+				"link"			: 	"assets/img/Bono-Recarga.png",
 				"name"			:	"bono-recarga",
 				"md"			:	"bono-de-recarga"
 			},
 			{
-				"link"			: 	"assets/img/Bono-Reembolso.webp",
+				"link"			: 	"assets/img/Bono-Reembolso.png",
 				"name"			:	"bono-rembolso",
 				"md"			:	"bono-de-reembolso"
 			},
 			{
-				"link"			: 	"assets/img/Bono-caballos.webp",
+				"link"			: 	"assets/img/Bono-caballos.png",
 				"name"			:	"bono-caballos",
 				"a"				: 	"caballos.html"
 			}

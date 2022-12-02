@@ -74,48 +74,6 @@ var galery = exports.galery = function galery() {
 };
 
 },{}],4:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-function mdInnerJson(data, rutaMd, nameObjJson, classDiv) {
-	var _loop = function _loop(i) {
-
-		var d = document,
-		    $main = d.querySelectorAll("div." + classDiv)[i];
-
-		fetch("assets/" + rutaMd + "/" + data[nameObjJson][i].md + ".md").then(function (res) {
-			return res.ok ? res.text() : Promise.reject(res);
-		}).then(function (text) {
-			var div = document.createElement("div");
-			div.innerHTML = new showdown.Converter().makeHtml(text);
-			$main.appendChild(div);
-		}).catch(function (err) {
-			console.log(err);
-			var message = err.statusText || "Ocurrio un error";
-			$main.innerHTML = "Error " + err.status + ":" + message;
-		});
-	};
-
-	for (var i = 0; i < data[nameObjJson].length; i++) {
-		_loop(i);
-	}
-}
-
-var mdInner = exports.mdInner = function mdInner(rutaMd, nameObjJson, classDiv) {
-	function md() {
-		fetch("./example.json").then(function (response) {
-			return response.json();
-		}).then(function (data) {
-			return mdInnerJson(data, rutaMd, nameObjJson, classDiv);
-		});
-	}
-
-	var funcion = md();
-};
-
-},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -139,7 +97,7 @@ function modal() {
 	});
 }
 
-},{}],6:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -167,7 +125,7 @@ var tabs = function tabs() {
 
 exports.tabs = tabs;
 
-},{}],7:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -282,7 +240,7 @@ exports.tnsSingleDesktop = tnsSingleDesktop;
 exports.tnsSinglePrefooter = tnsSinglePrefooter;
 exports.tnsSingleCasino = tnsSingleCasino;
 
-},{}],8:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -301,7 +259,7 @@ var topNav = exports.topNav = function topNav() {
 	});
 };
 
-},{}],9:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 var _tnsSlider = require('./components/tns-slider');
@@ -311,8 +269,6 @@ var _topNav = require('./components/topNav');
 var _galery = require('./components/galery');
 
 var _acordeon = require('./components/acordeon');
-
-var _mdCompiler = require('./components/md-compiler');
 
 var _tabs = require('./components/tabs');
 
@@ -335,7 +291,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 		(0, _galery.galery)();
 	} else if (document.body.classList.contains('bonos')) {
 		// functions here
-		(0, _mdCompiler.mdInner)('./md', 'promos', 'accordion-container__panel');
 		(0, _acordeon.accordion)();
 	} else if (document.body.classList.contains('banca')) {
 		// functions here
@@ -357,6 +312,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 	}
 })();
 
-},{"./components/acordeon":1,"./components/dropdown":2,"./components/galery":3,"./components/md-compiler":4,"./components/modal-sign-up":5,"./components/tabs":6,"./components/tns-slider":7,"./components/topNav":8}]},{},[9]);
+},{"./components/acordeon":1,"./components/dropdown":2,"./components/galery":3,"./components/modal-sign-up":4,"./components/tabs":5,"./components/tns-slider":6,"./components/topNav":7}]},{},[8]);
 
 //# sourceMappingURL=scripts-min.js.map
