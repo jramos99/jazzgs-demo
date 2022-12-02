@@ -1,0 +1,12 @@
+nav(class='top-nav')
+	div(class='top-nav__container')
+		a(href='./', class='top-nav__link')
+			img(src='assets/img/jazz-logo.webp', alt='logo', class='top-nav__logo')
+		ul(class='top-nav__menu')
+			-for(var i = 0; i < menu.length ; i++)
+				li(class='top-nav__li'): a(href=`${menu[i].link}`, class='top-nav__anchor')=menu[i].name
+		div(class="buttons-container")
+			button(class=" btn-modal sign-up-top-nav") Ingresar
+			button( aria-label="hamburguer-menu" type='button', class='top-nav__mb-iconMenu hamburger hamburger--slider-r')
+					span.hamburger-box(name="hamburguer-menu")
+						span.hamburger-inner(name="hamburguer-menu")

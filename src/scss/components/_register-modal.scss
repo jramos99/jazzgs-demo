@@ -1,0 +1,14 @@
+.register-modal{
+	position: absolute;
+	background-color: #222;
+	&-header{
+		display: flex;
+		margin-top: 10px;
+		justify-content: space-around;
+		color: white;
+	}
+	&-form{
+		display: flex;
+		justify-content: space-around;	
+	}
+}

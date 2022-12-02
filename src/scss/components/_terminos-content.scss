@@ -1,0 +1,14 @@
+.terminos-y-condiciones-container{
+	color:white;
+	background-color: var(--footers-colors);
+	padding: 15px;
+	border-radius: 10px;
+	max-width: 1024px;
+	margin: 0 auto;
+	a{
+		color: var(--a-colors);
+	}
+	.sign-up-container a{
+		color: white;
+	}
+}

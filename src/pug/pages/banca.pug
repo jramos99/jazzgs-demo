@@ -1,0 +1,13 @@
+extends ../config/template
+append config
+	-currentPage = "banca"
+	-siteName = 'JazzGS'
+	-content = 'content'
+	-pageDescription = ''
+block main-header
+block main-container
+	include ../components/banca-content.pug
+	include ../components/prefooter
+block main-footer
+
+block scripts

@@ -1,0 +1,13 @@
+extends ../config/template
+append config
+	-currentPage		= "reglas-de-la-casa"
+	-siteName			= 'JazzGS'
+	-content			= 'content'
+	-pageDescription	= ''
+block main-header
+block main-container 
+	include ../components/reglas-de-la-casa-content.pug
+	include ../components/prefooter.pug
+block main-footer
+
+block scripts

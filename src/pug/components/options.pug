@@ -1,0 +1,15 @@
+div(class="ed-grid s-grid-6 section-main-container")
+	div(class="s-cols-6 m-cols-4 ed-grid s-grid-4 options-container")
+		div(class="video-container s-cols-4 m-cols-3 m-rows-2")
+			div(class="video-container-box")
+				iframe(id='video-galery'  src='https://www.youtube.com/embed/lEskUywEsb0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+		- for(i = 0; i < galeria.length; i++)
+			div(class="gallery-image s-cols-2 m-cols-1")
+				div
+					img(src= `${galeria[i].img}`, alt=`${galeria[i].name}` value=galeria[i].video)
+					p= galeria[i].name
+	div(class="s-cols-6 m-cols-2")
+		- for(i = 0; i < dudas.length; i++)
+			a.options(href=`${dudas[i].a}` )
+				img(src= dudas[i].link, alt=`${dudas[i].link}`)
+				p= dudas[i].name

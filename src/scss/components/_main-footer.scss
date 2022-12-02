@@ -1,0 +1,28 @@
+.footer-container{
+	text-align: center;
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+	a{
+		display: block;
+		text-decoration: none;
+		&:hover{
+			color: var(--secondari-color);
+		}
+	}
+}
+.author{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.jazz-div{
+		img{
+			margin-left: 5px;
+			width:33%;
+		}
+		margin-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,915 @@
+{	
+	
+	"menu":[
+		{
+			"name"			:"DEPORTES",
+			"link"			:"deportes.html"
+		},
+		{
+			"name"			:"APUESTAS EN VIVO",
+			"link"			:"apuestas-en-vivo.html"
+		},
+		{
+			"name"			:"CASINO",
+			"link"			:"casino.html"
+		},
+		{
+			"name"			:"POKER",
+			"link"			:"poker.html"
+		},
+		{
+			"name"			:"CABALLOS",
+			"link"			:"caballos.html"
+		},
+		{
+			"name"			:"BANCA",
+			"link"			:"banca.html"
+		},
+		{
+			"name"			:"PROMOCIONES",
+			"link"			:"bonos.html"
+		}
+
+	],
+
+	"language":[
+		{
+			"id"			: "spanish",
+			"img"			: "assets/img/spain-flag.gif"
+		},
+		{
+			"id"			: "english",
+			"img"			: "assets/img/usa-flag.gif"
+		}
+	],
+
+	"slides":[
+		{
+			"link"			: 	"assets/img/slider-sports-mobile.webp",
+			"name"			:	"deportes.html"
+		},
+		{
+			"link"			: 	"assets/img/slider-casino-mobile.webp",
+			"name"			:	"casino.html"
+		},
+		{
+			"link"			: 	"assets/img/slider-caballos-mobile.webp",
+			"name"			:	"caballos.html"
+		}
+	],
+	"slidesDesktop":[
+		{
+			"link"			: 	"assets/img/slider-sports.webp",
+			"name"			:	"banners-bienvenida",
+			"title"			:	"Bono de Reembolso",
+			"md"			:	"bono-de-reembolso"
+		},
+		{
+			"link"			: 	"assets/img/slider-casino.webp",
+			"name"			:	"banners-casino",
+			"title"			:	"Bono de Casino 100%",
+			"md"			:	"bono-de-casino"
+		},
+		{
+			"link"			: 	"assets/img/slider-caballos.webp",
+			"name"			:	"banners-casino",
+			"title"			:	"Bono de Casino 100%",
+			"md"			:	"bono-de-casino2"
+		}
+	],
+	"video":[
+		{
+			"link" 			: "assets/img/como-hacer-tus-apuestas.mp4",
+			"name"			: "como hacer tus apuestas"
+		},
+		{
+			"link" 			: "assets/img/configuraciones.mp4",
+			"name"			: "configuraciones"
+		}
+	],
+	"galeria":[
+		{
+			"video"			: "https://www.youtube.com/embed/lEskUywEsb0",
+			"img"			: "assets/img/jazzselect.jpg",
+			"name"			: "Jazz Gaming Solutions"
+		},
+		{
+			"video"			: "https://www.youtube.com/embed/F0TEcboPJ5w",
+			"img"			: "assets/img/unselect2.webp",
+			"name"			: "¿Como apostar en linea?"
+		}
+	],
+
+	"dudas":[
+		{
+			"link"			: "assets/img/gift.webp",
+			"name"			: "Promociones y Bonos",
+			"a"				: "bonos.html"
+		},
+		{
+			"link"			: "assets/img/wallet.webp",
+			"name"			: "Banca",
+			"a"				: "banca.html"
+		},
+		{
+			"link"			: "assets/img/blog.webp",
+			"name"			: "Agencias",
+			"a"				: "agencias.html"
+		}
+	],
+	"deportes": [
+		{
+			"img"			:"assets/img/poker-online.webp",
+			"name"			:"DEPORTES",
+			"link"			:"deportes.html"
+
+		},
+		{
+			"img"			:"assets/img/apuestas-deportivas.webp",
+			"name"			:"DEPORTES EN VIVO",
+			"link"			:"apuestas-en-vivo.html"
+		},
+		{
+			"img"			:"assets/img/casino.webp",
+			"name"			:"CASINO",
+			"link"			:"casino.html"
+		},
+		{
+			"img"			:"assets/img/caballos.webp",
+			"name"			:"CASINO EN VIVO",
+			"link"			:"caballos.html"
+		},
+		{
+			"img"			:"assets/img/afiliados.webp",
+			"name"			:"ESPORTS",
+			"link"			:"#"
+		}
+	],
+	"footer": [
+		{
+			"name"			: "Acerca de nosotros",
+			"link"			: "acerca-de-nosotros.html"
+		},
+		{
+			"name"			: "Reglas de la casa",
+			"link"			: "reglas-de-la-casa.html"
+		},
+		{
+			"name"			: "Agentes",
+			"link"			: "https://agents.jazzgsdemo.com/AgentSiteV2/"
+		},
+		{
+			"name"			: "Términos y condiciones",
+			"link"			: "terminos-y-condiciones.html"
+		},
+		{
+			"name"			: "Reglas de deportes",
+			"link"			: "reglas-de-deportes.html"
+		},
+		{
+			"name"			: "Nuevo Admin",
+			"link"			: "https://adm.jazzgsdemo.com/"
+		},
+		{
+			"name"			: "Politica de privacidad",
+			"link"			: "politica-de-privacidad.html"
+		},
+		{
+			"name"			: "Reglas de casino",
+			"link"			: "reglas-de-casino.html"
+		},
+		{
+			"name"			: "Afiliados",
+			"link"			: "https://adminafiliados.apuestamex.com/#/auth/login"
+		},
+		{
+			"name"			: "Programa de lealtad",
+			"link"			: "programa-de-lealtad.html"
+		},
+		
+		
+		
+		{
+			"name"			: "Reglas de Poker",
+			"link"			: "reglas-de-poker.html"
+		},
+		
+		
+		
+		{
+			"name"			: "Socios",
+			"link"			: "https://jazzgs.com/es/tutoriales/"
+		}
+		
+	],
+	 "monedas":[
+		{
+			"moneda"		: "PEN"
+		},
+		{
+			"moneda"		:"USD"
+		},
+		{
+			"moneda"		:"CRC"
+		}
+	 ],
+	 "numeros":[
+		{
+			"pais"			:"assets/img/cr.webp",
+			"codigo"		:"+506"
+		}
+	 ],
+	 "paises":[
+		{
+			"pais"			:"Costa Rica"
+		},
+		{
+			"pais"			:"Nicaragua"
+		},
+		{
+			"pais"			:"Panama"
+		}
+	 ],
+	 "estados":[
+		{
+			"estado"			:"San José"
+		},
+		{
+			"estado"			:"Heredia"
+		},
+		{
+			"estado"			:"Alajuela"
+		}
+	 ],
+	 "prefooter":[
+			{
+				"img"			:"assets/img/crypto.webp"
+			},
+			{
+				"img"			:"assets/img/mastercard.webp"
+			},
+			{
+				"img"			:"assets/img/money-gram.webp"
+			},
+			{
+				"img"			:"assets/img/ria.webp"
+			},
+			{
+				"img"			:"assets/img/safety-pay.webp"
+			}
+	 ],
+	 "banca":[
+		{
+			"retiros":[
+				{
+					"name":"Envío de dinero",
+					"img":"assets/img/RiaMoneygram.webp",
+					"list":["Retiro Mínimo de $100 usd", "Retiro Máximo de $400 usd", "Comisión variable dependiendo del monto.", "Contáctanos en el departamento de “banca en línea” en el chat antes de las 11am hora del este para procesar tu envío el mismo día."]
+				},
+				{
+					"name":"Cripto Moneda",
+					"img":"assets/img/logosmetodosdepago-01.webp",
+					"list":["Retiro Mínimo $50 usd", "Retiro Máximo Diario $2500 usd", "Retiro Máximo Semanal $5000 usd", "Contáctanos en el departamento de “banca en línea” en el chat para más información."]
+				},
+				{
+					"name":"Safety Pay",
+					"img":"assets/img/logosmetodosdepago-06.webp",
+					"list":["Deposito Mínimo de $25", "Facil metodo de pago en tiendas de conveniencia o bancos de tu zona.", "para mas información contactar al chat en linea departamente de banca."]
+				},
+				{
+					"name":"Transferencias Bancarias",
+					"img":"assets/img/transfer.webp",
+					"list":["Se cuenta con interfaz para que lo jugadores puedan reportar sus transferencias por medio de la plataforma y el administrador pueda aprobarlas mediante la misma interfaz y herramientas brindadas por JazzGS."]
+				}
+			]
+		},
+		{
+			"depositos":[
+				{
+					"name":"Cripto Moneda",
+					"img":"assets/img/logosmetodosdepago-01.webp",
+					"list":["Deposito Mínimo de $50 usd (Montos inferiores a $50 usd tienen un recargo de $2 usd)","Contáctanos en el departamento de banca en línea en el chat para más información"]
+				},
+				{
+					"name":"Tarjetas de crédito",
+					"img":"assets/img/logos-pagos-02-02.webp",
+					"list":["Depósito Mínimo de $50 usd Contáctanos en el departamento de banca en línea en el chat para más información."]
+				},
+				{
+					"name":"Envio de dinero",
+					"img":"assets/img/RiaMoneygram.webp",
+					"list":["Deposito Mínimo de $100 Cargo de $10 reembolsable Tiempo de acreditación 20-25 minutos (dentro del horario del proveedor) Contáctanos en el departamento de banca en línea en el chat para más información."]
+				},
+				{
+					"name":"Safety Pay",
+					"img":"assets/img/logosmetodosdepago-06.webp",
+					"list":["Deposito Mínimo de $25 Facil metodo de pago en tiendas de conveniencia o bancos de tu zona. para mas información contactar al chat en linea departamente de banca"]
+				},
+				{
+					"name":"Transferencias Bancarias",
+					"img":"assets/img/transfer.webp",
+					"list":["Se cuenta con interfaz para que lo jugadores puedan reportar sus transferencias por medio de la plataforma y el administrador pueda aprobarlas mediante la misma interfaz y herramientas brindadas por JazzGS."]
+				}
+			]
+		}
+	 ],
+	 "casino":[
+		{
+			"galery":[
+				{
+					"img":"assets/img/slot-exchange.webp"
+				},
+				{
+					"img":"assets/img/endorphina.webp"
+				},
+				{
+					"img":"assets/img/betsoft.webp"
+				},
+				{
+					"img":"assets/img/nucleus.webp"
+				},
+				{
+					"img":"assets/img/conceptgaming.webp"
+				},
+				{
+					"img":"assets/img/platinum.webp"
+				},
+				{
+					"img":"assets/img/salsa.webp"
+				},
+				{
+					"img":"assets/img/tomhorn.webp"
+				},
+				{
+					"img":"assets/img/ezugi.webp"
+				},
+				{
+					"img":"assets/img/vig.webp"
+				},
+				{
+					"img":"assets/img/vivogaming.webp"
+				},
+				{
+					"img":"assets/img/betgamestv.webp"
+				},
+				{
+					"img":"assets/img/evolutiongaming.webp"
+				},
+				{
+					"img":"assets/img/evoplay.webp"
+				},
+				{
+					"img":"assets/img/spinomenal.webp"
+				},
+				{
+					"img":"assets/img/booongo.webp"
+				},
+				{
+					"img":"assets/img/wazdan.webp"
+				},
+				{
+					"img":"assets/img/irondog.webp"
+				},
+				{
+					"img":"assets/img/1x2gaming.webp"
+				},
+				{
+					"img":"assets/img/sagaming.webp"
+				},
+				{
+					"img":"assets/img/booming.webp"
+				},
+				{
+					"img":"assets/img/noble.webp"
+				},
+				{
+					"img":"assets/img/felix.webp"
+				},
+				{
+					"img":"assets/img/gamshy.webp"
+				},
+				{
+					"img":"assets/img/revolver.webp"
+				},
+				{
+					"img":"assets/img/goldenrace.webp"
+				},
+				{
+					"img":"assets/img/nsoft.webp"
+				},
+				{
+					"img":"assets/img/Elik.webp"
+				},
+				{
+					"img":"assets/img/konect.webp"
+				},
+				{
+					"img":"assets/img/Thunderkick.webp"
+				},
+				{
+					"img":"assets/img/live-slots.webp"
+				},
+				{
+					"img":"assets/img/jackpot.webp"
+				}
+			]
+		},
+		{
+			"galery":[
+				{
+					"img":"assets/img/betgamestv.webp"
+				},
+				{
+					"img":"assets/img/vivogaming.webp"
+				},
+				{
+					"img":"assets/img/evolutiongaming.webp"
+				},
+				{
+					"img":"assets/img/ezugi.webp"
+				}
+			]
+		},
+		{
+			"galery":[
+				{
+					"img":"assets/img/sugar-pop-1.webp"
+				},
+				{
+					"img":"assets/img/FireCrackers-1.webp"
+				},
+				{
+					"img":"assets/img/Rollin-Trolls-1.webp"
+				},
+				{
+					"img":"assets/img/sugar-pop2-1.webp"
+				},
+				{
+					"img":"assets/img/FruitZen.webp"
+				},
+				{
+					"img":"assets/img/Book-of-santa-1.jpg"
+				},
+				{
+					"img":"assets/img/Jingle-spin-1.webp"
+				},
+				{
+					"img":"assets/img/A-christmas-carol-1.webp"
+				},
+				{
+					"img":"assets/img/12-Animals-1.webp"
+				},
+				{
+					"img":"assets/img/4-season-1.webp"
+				}
+				
+			]
+		}
+	 ],
+	 "poker":[
+		{
+			"name": "BetSoft",
+			"games": [
+				{
+					"name": "Video Poker",
+					"games":[
+						{
+							"img": "assets/img/DeucesAndJokers.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/BonusPoker.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/FiveDrawPoker.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/DoubleBonusPoker.webp",
+							"link":"#"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Casino Nucleus",
+			"games": [
+				{
+					"name": "Video Poker",
+					"games":[
+						{
+							"img": "assets/img/Double-Bonus.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/Joker-Poker.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/Bonus-Poker.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/All-American-Video-Poker.webp",
+							"link":"#"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tom Horn",
+			"games": [
+				{
+					"name": "Video Poker",
+					"games":[
+						{
+							"img": "assets/img/logo300.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/logo301.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/logo302.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/logo303.webp",
+							"link":"#"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Wazdan",
+			"games": [
+				{
+					"name": "Video Poker",
+					"games":[
+						{
+							"img": "assets/img/MagicPoker.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/CaribbeanBeachPoke.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/AmericanPokerV.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/AmericanPokerGold.webp",
+							"link":"#"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Casino Platinum",
+			"games": [
+				{
+					"name": "Video Poker",
+					"games":[
+						{
+							"img": "assets/img/joker-poker2.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/betters.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/jack-better.webp",
+							"link":"#"
+						},
+						{
+							"img": "assets/img/royal.webp",
+							"link":"#"
+						}
+					]
+				}
+			]
+		}
+	 ],
+	 "blog":[
+		{
+			"img":"assets/img/basket.webp",
+			"link":"#",
+			"title": "NBA 2K20: How To Download Ultra-Realistic Custom Draft Class",
+			"content": "When NBA 2K21 releases in September, the draft will still be a month or so away, and we can only hope for a roster update that puts rookies and free agents on their teams."
+		},
+		{	
+			"img":"assets/img/ronaldo.webp",
+			"link":"#",
+			"title": "Cristiano Ronaldo is first footballer to earn more than $1 billion",
+			"content": "Portuguese superstar Cristiano Ronaldo has become the first footballer to earn more than $1 billion (€885m), according to Forbes magazine."
+		}
+	 ],
+	 "blogVideos":[
+			{
+				"title": "NBA 2K20 - Next is Now | PS4",
+				"link":"https://www.youtube.com/embed/iFPWdc3PMBk?controls=0&rel=0&disablekb=1&showinfo=0&modestbranding=0&html5=1&iv_load_policy=3&autoplay=0&end=0&loop=0&playsinline=0&start=0&nocookie=false&enablejsapi=1&origin=https%3A%2F%2Fblog.kaposbet.com&widgetid=1"
+			}
+	 ],
+	 "acercaDeNosotros":[
+			{
+				"imgMobile": "assets/img/acerca-mobile.webp",
+				"imgDesktop": "assets/img/acerca-desktop.webp",
+				"titulo": "¿QUIÉNES SOMOS JAZZ GAMING SOLUTIONS?",
+				"parrafo": "Con más de 34 años en el negocio de las apuestas nuestra prioridad siempre ha sido una: EL JUGADOR.",
+				"parrafo2": "Nuestra meta es brindar a los jugadores una experiencia única con novedosos productos y excelente servicio al cliente.",
+				"parrafo3":"Diariamente nos esforzamos por cuidar a los jugadores, la parte más importante del negocio, por ende, estamos en constantes actualizaciones en tecnología de punta para que la experiencia al utilizar nuestros productos sea siempre la mejor, garantizando la maximización de sus rendimientos a nuestros socios.",
+				"parrafo4": "JazzGS su Solución en Software de Apuestas"
+			}
+	 ],
+	 "planDeLealtad":[
+		{
+			"imgMobile": "assets/img/plan.webp",
+			"imgDesktop": "assets/img/plan-desktop.webp",
+			"titulo": "PROGRAMA DE LEALTAD",
+			"p1": "Nuestra fase introductoria del programa de acumulación de puntos ha concluido.",
+			"p2":"A continuación se detalla la tabla de conversión de acuerdo al nivel o rating que en esa semana tenga el jugador:",
+			"tabla1": {
+				"th1":"Jugadas Gratis SOLES / USD",
+				"sub1":[
+					{
+						"td":"SILVER"
+					},
+					{
+						"td":"GOLD"
+					},
+					{
+						"td":"DIAMOND"
+					},
+					{
+						"td":"PLATINUM"
+					}
+				],
+				"sub2":[
+					{
+						"td":"Bonus Points x"
+					},
+					{
+						"td":"0.02"
+					},
+					{
+						"td":"0.025"
+					},
+					{
+						"td":"0.03"
+					},
+					{
+						"td":"0.035"
+					}
+				]
+			},
+			"p3":"Todos los clientes de JazzGs que se mantengan activos en sus cuentas de internet serán registrados automáticamente en el programa de acumulación de puntos. Contamos con diferentes niveles o rating para nuestros clientes. El Nivel o Rating del Cliente dependerá de su historial de juego en el sitio web JazzGs.",
+			"p4":"Los niveles de cada jugador serán actualizados 2 veces por semana (lunes y viernes). Dependiendo del nivel o rating el cliente podrá disfrutar diferentes beneficios. La cantidad de puntos va a depender del tipo de apuestas que el cliente escoja (Derechas, combinadas, teasers, if bets, etc) Con esto puntos los clientes van a poder elegir intercambiar sus puntos por jugadas gratis. Los clientes podrán consultar sus puntos diariamente ingresando a sus cuentas. A continuación se incluye una tabla de conversión de puntos dependiendo del tipo de apuesta.",
+			"tabla2": {
+				"th1":"Tipo de Apuesta",
+				"th2":"Cantidad de Puntos",
+				"sub1":[
+					{
+						"td1":"Straight",
+						"td2":"1.5"
+					},
+					{
+						"td1":"Parlay",
+						"td2":"2"
+					},
+					{
+						"td1":"Teaser",
+						"td2":"2"
+					},
+					{
+						"td1":"If Bets",
+						"td2":"1.5"
+					},
+					{
+						"td1":"Reverse",
+						"td2":"1.5"
+					}
+				]
+			},
+			"p5":"Los clientes de www.jazzgs.com podrán solicitar el cambio de puntos en cuanto tengan la cantidad necesaria de puntos equivalentes a un mínimo de $30 MXN en jugada gratis. Si el jugador desea continuar acumulando sus puntos lo puede hacer.",
+			"titulo2":"Terminos y condiciones para los Free Plays (jugadas gratis)",
+			"p6":"De acuerdo al nivel de cada jugador así serán los beneficios que recibirá por concepto de bonos por depósito, intercambio de puntos y otros beneficios:",
+			"tabla3": {
+				"th1":"Jugadas Gratis",
+				"th2":"Después del 1er Retiro No hay Free Plays para GOLD y SILVER Los Jugadores DIAMOND Y PLATINUM deben solicitar su Free Play el mismo día del deposito.",
+				"sub1":[
+					{
+						"td1":"Primer depósito",
+						"td2":"15% Free Play",
+						"td3":"5x Rollover"
+					},
+					{
+						"td1":"Todos los depósitos antes del 1er Retiro",
+						"td2":"15% Free Play",
+						"td3":"3x Rollover"
+					},
+					{
+						"td1":"Clientes DIAMOND en todos los depósitos",
+						"td2":"2.5% Free Play",
+						"td3":"3x Rollover"
+					},
+					{
+						"td1":"Clientes PLATINUM",
+						"td2":"5% Free Play",
+						"td3":"3x Rollover"
+					},
+					{
+						"td1":"Horse Rebate en Apuestas Online",
+						"td2":"Tracks A= 5%, Tracks B= 3% C=1%",
+						"td3":" "
+					}
+				]
+			},
+			"p7":"No incluye Apuestas en Vivo.",
+			"list1":[
+				{
+					"li":"En apuestas straights o derechas se toma el monto en riesgo para asignar los puntos."
+				},
+				{
+					"li":"En apuestas parlays se utiliza el monto en riesgo para asignar los puntos."
+				},
+				{
+					"li":"En apuestas Teaser se utiliza el monto menor entre el riesgo y la ganancia para asignar los puntos."
+				},
+				{
+					"li":"Solamente las apuestas que resulten perdedoras calificaran para la obtención de puntos. Apuestas ganadoras o que resulten en push no califican para la promoción."
+				},
+				{
+					"li":"Apuestas deportivas en Basketball Colegial y Profesional de Estados Unidos, Football Colegial y Profesional de Estados Unidos solo acumularan puntos en apuestas pérdidas y en línea de puntos y altas y bajas."
+				},
+				{
+					"li":"Apuestas deportivas en Baseball  Profesional de Estados Unidos acumularan puntos en apuestas perdidas y en línea de dinero, altas o bajas y línea de carrera."
+				},
+				{
+					"li":"Apuestas deportivas en Boxeo, artes marciales, golf y tenis acumularan puntos en apuestas pérdidas y en la línea de dinero y altas o bajas."
+				},
+				{
+					"li":"Apuestas deportivas en Soccer acumularan puntos en apuestas perdidas y en línea de dinero, altas o bajas y línea de goles."
+				},
+				{
+					"li":"Apuestas deportivas en Hockey de los Estados Unidos acumularan puntos en apuestas perdidas y en línea de dinero, altas o bajas y línea de goles."
+				},
+				{
+					"li":"Esta escala podrá cambiarse sin previo aviso."
+				},
+				{
+					"li":"Las apuestas gratuitas no serán aceptadas en el Racebook (Carreras de Caballos)"
+				},
+				{
+					"li":"Todos los bonos de 'Free Play' están sujetos a un 'rollover' que debe ser alcanzado para poder retirar dinero de su cuenta."
+				},
+				{
+					"li":"El requisito de 'rollover' incluye la suma del depósito y jugada gratis adjudicadas, multiplicado por el 'rollover' de ese bono en particular."
+				},
+				{
+					"li":"Si un miembro intenta retirar las ganancias derivadas de la jugada gratis sin cumplir con los requisitos especificados, las ganancias derivadas de la jugada gratis se perderán."
+				},
+				{
+					"li":"Apuestas a ambos lados de un solo evento con el propósito de cumplir el logro de los requisitos del rollover u obtener ganancias al jugar a ambos lado está prohibido. Cualquier intento de este tipo hará que las ganancias sean retiradas o que el bono se retire."
+				},
+				{
+					"li":"Los requisitos son responsabilidad del cliente cumplir con los requerimientos que vienen asociados con el bono que están aceptando."
+				}
+				,{
+					"li":"Pueden utilizarse en Apuestas Derechas con líneas o momios que no superen +250."
+				}
+				,{
+					"li":"En caso de que la apuesta gratuita sea ganadora. El cliente recibirá el monto de la ganancia pero no el monto arriesgado. El monto del riesgo solamente representa la oportunidad de juego y no parte del premio."
+				},
+				{
+					"li":"www.jazzgs.com se reserva el derecho de decidir si un usuario es o no elegible para participar en el programa de lealtad y/o cualquier otro programa de lealtad y de descuentos, así como remover y/o suspender los puntos de bono en cualquier momento y/o a cualquier cliente."
+				},
+				{
+					"li":"www.jazzgs.com no permite que se realicen transferencias internas de puntos; para así poder llevar un historial completo y exacto de cada cliente."
+				},
+				{
+					"li":"El cliente puede en todo momento no hacer uso de este programa."
+				},
+				{
+					"li":"Los términos y condiciones aquí descritas están sujetos a cambio sin previo aviso."
+				},
+				{
+					"li":"En jugadas gratis, un push equivale a una perdida."
+				}
+			],
+			"titulo3":"El abuso de los Productos de Bonos:",
+			"lista2":[
+				{
+					"li":"Nuestro programa de bonos está pensado para uso recreativo del apostador.",
+					"subli": []
+				},
+				{
+					"li":"kaposbet se reserva el derecho a revocar los bonos si considera que algún miembro está abusando del sistema de bonos. El abuso de bono incluye pero no está limitado a:",
+					"subli":[
+						{
+							"li":"Hacer un depósito para recibir un bono sin ningún tipo de actividad de los fondos depositados."
+						},
+						{
+							"li":"Retirar con el fin de volver a depositar el mismo día y así obtener otra vez el bono."
+						},
+						{
+							"li":"Apuestas a ambos lados de un solo evento para con el propósito de cumplir el logro de de los requisitos del rollover."
+						}
+					]
+				},
+				{
+					"li":"Las sanciones pueden tomar la forma de:",
+					"subli":[
+						{
+							"li":"Aumento de los requisitos del rollover"
+						},
+						{
+							"li":"La pérdida de los privilegios de bono de la cuenta infractora."
+						}
+					]
+				}
+			]
+
+		}
+ ],
+ "bets" : 
+		[
+			{
+				"td1" : "Pro Football",
+				"td2" : "55 minutos de juego"
+			},
+			{
+				"td1" : "College Football",
+				"td2" : "55 minutos de juego"
+			},
+			{
+				"td1" : "Basketball",
+				"td2" : "Todos las competencias/ligas excepto la NBA deben jugar como minimo 35 minutos para tener acción, al menos que se especifique otra cosa."
+			},
+			{
+				"td1" : "Pro Basketball",
+				"td2" : "43 minutos de juego"
+			},
+			{
+				"td1" : "College Basketball",
+				"td2" : "35 minutos de juego"
+			},
+			{
+				"td1" : "Baloncesto Mexicano",
+				"td2" : "35 minutos de juego"
+			},
+			{
+				"td1" : "Hockey",
+				"td2" : "55 minutos de juego"
+			},
+			{
+				"td1" : "Baseball Sides",
+				"td2" : "5 entradas (4 1/2 si el equipo de casa está ganando)"
+			},
+			{
+				"td1" : "Baseball Totals",
+				"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+			},
+			{
+				"td1" : "Run Lines",
+				"td2" : "9 entradas (8 1/2 si el equipo de casa está ganando)"
+			},
+			{
+				"td1" : "Tennis",
+				"td2" : "Un servicio"
+			},
+			{
+				"td1" : "Soccer",
+				"td2" : "Si un partido es suspendido antes de completarse el tiempo del juego, y no se completa el mismo día, las apuestas sobre el resultado del partido se considerarán nulas y todas las apuestas seran devueltas. Incluye Goal Lines, Money lines and Totals."
+			}
+		],
+		"promos":[
+			{
+				"link"			: 	"assets/img/Bono-Bienvenida.webp",
+				"name"			:	"bonos-bienvenida",
+				"md"			:	"bono-de-bienvenida"
+			},
+			{
+				"link"			: 	"assets/img/Bono-Recarga.webp",
+				"name"			:	"bono-recarga",
+				"md"			:	"bono-de-recarga"
+			},
+			{
+				"link"			: 	"assets/img/Bono-Reembolso.webp",
+				"name"			:	"bono-rembolso",
+				"md"			:	"bono-de-reembolso"
+			},
+			{
+				"link"			: 	"assets/img/Bono-caballos.webp",
+				"name"			:	"bono-caballos",
+				"a"				: 	"caballos.html"
+			}
+		]
+}

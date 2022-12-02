@@ -1,0 +1,32 @@
+.deportes-container{
+	background-color: #333;
+	padding: 20px;
+	h1{
+		color: var(--secondari-color);
+		text-align: start;
+	}
+	h2{
+		color: white;
+		text-align: center;
+	}
+	p{
+		color: white;
+	}
+	&-betslip{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		&-img1{
+			width: 100%;
+			@include from(m){
+				width: 70%;
+			}
+		}
+		&-img2{
+			width: 60%;
+			@include from(m){
+				width: 20%;
+			}
+		}
+	}
+}

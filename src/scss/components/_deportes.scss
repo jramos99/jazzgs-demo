@@ -1,0 +1,28 @@
+.cards-container{
+	margin-top: 30px;
+	.card-container{
+		color:white;
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-top: 20px;
+		text-align: center;
+		text-decoration: none;
+		transition: background-color .5s;
+		&:hover{
+			background-color: rgba($color: rgb(251, 251, 251), $alpha: 0.3);
+		}
+		&_text{
+			margin-top: 20px;
+			padding: 2%
+		}
+		&_image{
+			padding: 4%;
+		}
+	}
+}
+

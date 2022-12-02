@@ -1,0 +1,37 @@
+.caballos-tabs .is-active{
+	background-color: var(--secondari-color);
+	color: white;
+}
+.caballos-tabs{
+	color: white;
+}
+.caballos-container{
+	background-color: #333;
+	overflow-x: scroll;
+	@include from (m){
+		overflow-x: auto;
+	}
+	&-table{
+		color: white;
+		background-color: #333;
+		th{
+			background-color: var(--secondari-color);
+		}
+	}
+}
+.main-table-container{
+	width: 100%;
+	overflow-x: scroll;
+	@include from (m){
+		overflow-x: auto;
+	}
+}
+.racebookExternal{
+	color: white;
+	table{
+		width: 100%;
+	}
+	th,td{
+		border: 1px solid white;
+	}
+}

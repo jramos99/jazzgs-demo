@@ -1,0 +1,52 @@
+div(class="container")
+	div(class="casino-container")
+		h2 CASINO
+		p Nuestros juegos incluyen una amplia variedad de tragamonedas 3D, juegos de mesa, video poker, apuestas en vivo y juegos tales como el Keno, Racebook virtuales y las tarjetas para raspar. En total, contamos con más de 30 proveedores distintos, garantizando más de 2000 juegos a disposición de los jugadores.. Nuestro servicio se encuentra disponible a toda hora del día todos los días del año ofreciendo acción ininterrumpida en todo momento.
+
+		div(class="casino-container-betslip")
+			div(class="casino-container-betslip-img1")
+				img(src="assets/img/lobby01.webp", alt="dektop-img")
+			div(class="casino-container-betslip-img2")
+				img(src="assets/img/lobby02.webp", alt="mobile-img")
+
+		div(class="casino-container-galery-content")
+			div(class="casino-container-galery")
+				-for(let i = 0; i < casino[0].galery.length; i++)
+					div(class="casino-container-galery-item")
+						img(src=casino[0].galery[i].img, alt="provedor casino")
+
+		div(class="casino-vivo-container")
+			h2 CASINO EN VIVO
+			p La oferta del Casino en Vivo de Betsev incluye Blackjack, Ruleta, Poker, y muchos otros juegos emocionantes para mantenerte entretenido durante horas, y por qué no? Tu puedes obtener un beneficio además de la diversión. Nuestro Casino en Vivo permanece abierto 24/7, los 365 días del año. No hay nada mejor que esto.
+			div(class="casino-vivo-container-galery")
+				div(class="ed-grid m-grid-4 rows-gap")
+					div(class="m-rows-1 m-cols-1 galery-item")
+						img(src="assets/img/LiveCasino01.jpg", alt="LiveCasino01")
+					div(class="m-rows-2 m-cols-2 m-x-2 m-y-1 galery-item")
+						img(src="assets/img/LiveCasino04.jpg", alt="LiveCasino04")
+					div(class="m-rows-1 m-cols-1 galery-item")
+						img(src="assets/img/LiveCasino03.jpg", alt="LiveCasino03")
+					div(class="m-rows-1 galery-item")
+						img(src="assets/img/LiveCasino02.jpg", alt="LiveCasino02")
+					div(class="m-rows-1 galery-item")
+						img(src="assets/img/LiveCasino05.jpg", alt="LiveCasino05")
+
+		div(class="casino-container-galery-content")
+			div(class="casino-container-galery casino-vivo")
+				-for(let i = 0; i < casino[1].galery.length; i++)
+					div(class="casino-container-galery-item")
+						img(src=casino[1].galery[i].img, alt="provedor casino")
+
+		div(class="casino-games-container ed-grid s-grid-1")
+			div(class='container__slider')
+					button#customize-toggle4
+					div(class='tns-single ' id='tnsSingleCasino')
+						-for(var i = 0; i < casino[2].galery.length ; i++)
+							div: div(class='tns-single__content')
+									div(class="games-container-galery-item")
+										img(src= casino[2].galery[i].img, alt="game")
+										div(class="games-container-galery-item-buttons")
+											button(class="btn-modal btn sign-up sign-up-casino") play for real
+											//- button(class="btn play-for-fun") play for fun
+
+

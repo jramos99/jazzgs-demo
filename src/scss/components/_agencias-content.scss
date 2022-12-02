@@ -1,0 +1,50 @@
+.agencias-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #222;
+	padding: 20px;
+	&-card{
+		max-width: 413px;
+		@include from(l){
+			max-width: 512px;
+		}
+		
+		margin-bottom: 20px;
+		padding: 20px;
+		background-color: #222;
+		border: 1px solid white;
+		border-radius: 10px;
+		&-detalles{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+
+		&-ubicacion{
+			height: 130px;
+			@include from (l){
+				height: 230px;
+			}
+			display: flex;
+			margin-top: 15px;
+			.ubicacion-img{
+				width: 50%;
+				border-radius: 10px 0px 0px 10px;
+			}
+			.ubicacion-google{
+				width: 50%;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				border-radius: 10px 0px 0px 10px;
+			}
+		}
+	}
+}
+.frame-local{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 10px 10px 0px;
+}

@@ -1,0 +1,13 @@
+extends ../config/template
+append config
+	-currentPage		= "reglas-de-casino"
+	-siteName			= 'JazzGS'
+	-content			= 'content'
+	-pageDescription	= ''
+block main-header
+block main-container 
+	include ../components/reglas-de-casino-content.pug
+	include ../components/prefooter.pug
+block main-footer
+
+block scripts

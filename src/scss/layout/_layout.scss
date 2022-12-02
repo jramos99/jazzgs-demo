@@ -1,0 +1,114 @@
+body {
+	margin         	: var(--header-height) 0 0 0;
+	min-height     	: calc(100vh - var(--header-height));
+	background 		: var(--background);
+	background-image: url();
+	background-repeat: repeat-y;
+	background-size: 100%;
+	display        	: flex;
+	flex-direction 	: column;
+}
+
+.main-header{}
+.main-container{
+	.tns-desktop{
+		display: none;
+		@include from(m){
+			display: block;
+		}
+	}
+	.tns-mobile{
+		display: block;
+		@include from(m){
+			display: none;
+		}
+
+	}
+	
+	.container{
+		position: relative;
+		width: calc(100% - 15px);
+		max-width: 1280px;
+		margin: 0 auto;
+		margin-top: 30px;
+		&__slider{
+			@include from(m){
+				min-height: 280px
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				@include from(m){
+					min-height: 280px;
+				}
+			}
+		}
+		&__signup{
+			min-width: 200px;
+			width: 100%;
+			max-width: 350px;
+			max-height: 300px;
+			font-size: 1rem;
+			padding: 15px;
+			background: #333;
+			color: white;
+			margin: 0 auto;
+			.form__item{
+				a{
+					display: block;
+				}
+				a:hover{
+					color: white;
+				}
+				input{
+					width: 100%;
+					line-height: 1.5;
+				}
+				button{
+					width: 90%;
+					
+				}
+				&--sign-up{
+					padding: 6px 12px;
+					background-color: #333;
+					color: #FFF;
+					border: 1px solid var(--main-color);
+				}
+				&--login{
+					margin-top: 15px;
+					background-color: #F8D213;
+					color: #333;
+					border: 1px solid white;
+					a{
+						width: 100%;
+						margin: 0;
+						padding: 6px 12px;
+					}
+					a:hover{
+						color: #333;
+						text-decoration: none;
+					}
+				}
+			}
+			.form__item:nth-child(2){
+				margin-top: 20px;
+			}
+			.form__item:nth-child(3){
+				text-align: center;
+				margin-top: 10px;
+			}
+			.form__item:nth-child(4){
+				display: flex;
+				justify-content: center;
+				margin-top: 10px;
+			}
+		}
+	}
+}
+.main-footer {
+	background 		: $color-first;
+	color      		: #FFF;
+	padding    		: 2rem 0;
+	font-size  		: fontSize(small);
+	margin-top 		: auto;
+}

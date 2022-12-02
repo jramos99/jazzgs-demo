@@ -1,0 +1,5 @@
+div(class='cards-container ed-grid s-grid-1 m-grid-5')
+	- for(i = 0; i < deportes.length; i++)
+		a(class='card-container' href=`${deportes[i].link}`)
+			div(class="card-container_image"): img(src=`${deportes[i].img}`, alt=`${deportes[i].name}`)
+			

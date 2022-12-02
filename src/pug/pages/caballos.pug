@@ -1,0 +1,12 @@
+extends ../config/template
+append config
+	-currentPage		= "caballos"
+	-siteName			= 'JazzGS'
+	-content			= 'content'
+	-pageDescription	= ''
+block main-header
+block main-container
+	include ../components/caballos-content.pug
+	include ../components/prefooter.pug
+block main-footer
+block scripts

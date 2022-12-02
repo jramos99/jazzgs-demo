@@ -1,0 +1,13 @@
+extends ../config/template
+append config
+	-currentPage		= "reglas-de-deportes"
+	-siteName			= 'JazzGS'
+	-content			= 'content'
+	-pageDescription	= ''
+block main-header
+block main-container 
+	include ../components/reglas-de-deportes-content.pug
+	include ../components/prefooter.pug
+block main-footer
+
+block scripts

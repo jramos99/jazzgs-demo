@@ -1,0 +1,25 @@
+.acerca-container{
+	color: white;
+	&-img{
+		border-radius: 10px;
+		img{
+			border-radius: 10px;
+		}
+	}
+	h2{
+		color: #007bff;
+	}
+	&-text{
+		margin-top: 20px;
+		padding: 15px;
+		background-color: var(--footers-colors);
+		border: 1px solid #333;
+		border-radius: 10px;
+		ul{
+			padding: 0 15px;
+		}
+	}
+	.last-p{
+		color: #007bff;
+	}
+}

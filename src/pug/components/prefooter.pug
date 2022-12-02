@@ -1,0 +1,8 @@
+div(class="prefooter-container ed-grid s-grid-1")
+	div(class='container__slider')
+			button#customize-toggle3
+			div(class='tns-single ' id='tnsSinglePrefooter')
+				-for(var i = 0; i < prefooter.length ; i++)
+					div
+						div(class='tns-single__content')
+							img(src=`${prefooter[i].img}` alt="prefooter img")

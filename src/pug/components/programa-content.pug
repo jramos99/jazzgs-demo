@@ -1,0 +1,65 @@
+div(class="container")
+	div(class="acerca-container")
+		div(class="acerca-container-text")
+			h2= planDeLealtad[0].titulo
+			p= planDeLealtad[0].p1
+			p= planDeLealtad[0].p2
+			div(class="first-table-container")
+				table(class="first-table-container-content")
+					tr
+						th 
+						th(colspan="4")= planDeLealtad[0].tabla1.th1
+					tr
+						th
+						-for(let i = 0; i < planDeLealtad[0].tabla1.sub1.length; i++)
+							th= planDeLealtad[0].tabla1.sub1[i].td
+					tr
+						-for(let i = 0; i < planDeLealtad[0].tabla1.sub2.length; i++)
+							th= planDeLealtad[0].tabla1.sub2[i].td
+			p= planDeLealtad[0].p3
+			p= planDeLealtad[0].p4
+			div(class="first-table-container")
+				table(class="first-table-container-content")
+					tr
+						th= planDeLealtad[0].tabla2.th1
+						th= planDeLealtad[0].tabla2.th2
+					-for(let i = 0; i < planDeLealtad[0].tabla2.sub1.length; i++)
+						tr
+							td= planDeLealtad[0].tabla2.sub1[i].td1
+							td= planDeLealtad[0].tabla2.sub1[i].td2
+			p= planDeLealtad[0].p5
+			h2= planDeLealtad[0].titulo2
+			p= planDeLealtad[0].p6
+			div(class="first-table-container")
+				table(class="first-table-container-content")
+					tr
+						th(colspan="3")= planDeLealtad[0].tabla3.th1
+						
+					-for(let i = 0; i < 2; i++)
+						tr
+							td= planDeLealtad[0].tabla3.sub1[i].td1
+							td= planDeLealtad[0].tabla3.sub1[i].td2
+							td= planDeLealtad[0].tabla3.sub1[i].td3
+					tr
+						th(colspan="3")= planDeLealtad[0].tabla3.th2
+					-for(let i = 2; i < 5; i++)
+						tr
+							td= planDeLealtad[0].tabla3.sub1[i].td1
+							td= planDeLealtad[0].tabla3.sub1[i].td2
+							td= planDeLealtad[0].tabla3.sub1[i].td3
+			p= planDeLealtad[0].p7
+			ul
+				-for(let i = 0; i < planDeLealtad[0].list1.length; i++)
+					li= planDeLealtad[0].list1[i].li
+			h2= planDeLealtad[0].titulo3
+			ul 
+				-for(let i = 0; i < planDeLealtad[0].lista2.length; i++)
+					-if(planDeLealtad[0].lista2[i].subli.length == 0)
+						li= planDeLealtad[0].lista2[i].li
+					-else
+						li= planDeLealtad[0].lista2[i].li
+						ol
+							-for(let j = 0; j < planDeLealtad[0].lista2[i].subli.length; j++)
+								li= planDeLealtad[0].lista2[i].subli[j].li		
+			div(class="sign-up-container")
+				a(href="register.html" class="btn sign-up sign-up_main") Registrate ya

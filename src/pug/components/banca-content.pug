@@ -1,0 +1,38 @@
+div(class='ed-container')
+	div(class='ed-item')
+		div(class='tabs-container')
+			ul(class='tabs-container__tabs' id='tabs')
+				li(class='tabs-container__tab is-active') Depositos
+				li(class='tabs-container__tab') Retiros
+			div(class='tabs-container__panels')
+				div(class='tabs-container__panel is-active')
+					-for(let i=0; i < banca[1].depositos.length;i++)
+						div(class="deposit-container")
+							div(class="deposit-container-logo"): img(src=banca[1].depositos[i].img, alt=banca[1].depositos[i].name)
+							div(class="deposit-container-content")
+								h2= banca[1].depositos[i].name
+								-for(let j = 0; j < banca[1].depositos[i].list.length; j++)
+									p= banca[1].depositos[i].list[j]
+							-if(banca[1].depositos[i].qr)
+									div(class="deposit-container-qr")
+										img(src=banca[1].depositos[i].qr)
+							div(class="deposit-container-button")
+								button(class="button btn-modal") Deposita ahora
+				div(class='tabs-container__panel')
+					-for(let i=0; i < banca[0].retiros.length;i++)
+						div(class="deposit-container")
+							div(class="deposit-container-logo"): img(src=banca[0].retiros[i].img, alt=banca[0].retiros[i].name)
+							div(class="deposit-container-content")
+								h2= banca[0].retiros[i].name
+								
+								-if(banca[0].retiros[i].list)
+									-for(let j = 0; j < banca[0].retiros[i].list.length; j++)
+										p= banca[0].retiros[i].list[j]
+								div(class="deposit-container-button")
+									button(class="button btn-modal") Retira ahora	
+							
+									
+							
+				p  Si solicitas un retiro sin haber apostado una cantidad igual o superior a la cantidad depositada, podemos solicitarte que realices una apuesta por la totalidad o parte de los depósitos anteriores efectuados y/o cobrar una tasa por el retiro solicitado. Así mismo, si el depósito por medio de tarjeta de crédito no ha sido jugado en su totalidad, las solicitudes de retiro tendrán que esperar 2 meses para ser procesados si los mismos NO son jugados.
+
+				

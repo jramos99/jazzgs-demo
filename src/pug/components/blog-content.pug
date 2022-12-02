@@ -1,0 +1,16 @@
+div(class="container")
+	div(class="blog-container")
+		div(class="blog-container-content")
+			h3 Kaposbet News
+			-for(let i = 0 ; i < blog.length; i++)
+				div(class="blog-container-content-section")
+					div(class="blog-container-content-section-img")
+						img(src=blog[i].img, alt="blog-icon")
+					div(class="blog-container-content-section-text")
+						a(href=blog[i].link)= blog[i].title
+						p=  blog[i].content
+		div(class="blog-container-video")
+			h3 NBA 2K20 - Next is Now
+			-for(let i = 0 ; i < blogVideos.length; i++)
+				div(class="blog-container-video-section")
+					iframe#video-134-1_youtube_iframe(frameborder='0' allowfullscreen='1' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' title=`${blogVideos[i].title}` src=`${blogVideos[i].link}` sandbox='allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox' width='354' height='199.125')

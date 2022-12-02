@@ -1,0 +1,90 @@
+.tns-single{
+	&__content{
+		min-height: 200px;
+		display           : flex;
+		justify-content   : center;
+		flex-direction    : column;
+		align-items       : center;
+		span{color        : white;}
+		width: 100%;
+		img{
+			object-fit: scale-down;
+			width: 100%;
+			height: auto;
+			min-height: 214px;
+			max-height: 540px;
+		}
+	}
+}
+.prefooter-container .tns-single{
+	button.tns-item{
+		display: none;
+	}
+	.container__slider{
+		min-height: 150px;
+	}
+	&__content{
+		display           : flex;
+		justify-content   : center;
+		flex-direction    : column;
+		align-items       : center;
+		span{color        : white;}
+		width: 100%;
+		img{
+			@include from(s){
+				width: 50%;
+				height: auto;
+			}
+			@include from(m){
+				width:30%;
+				height: auto;
+			}
+			min-height: 50px;
+			max-height: 100px;
+		}
+	}
+}
+.casino-games-container {
+	.container__slider{
+		min-height: 150px;
+	}
+}
+.casino-games-container .tns-single{
+	button.tns-item{
+		display: none;
+	}
+	.container__slider{
+		min-height: 150px;
+	}
+	&__content{
+		display           : flex;
+		justify-content   : center;
+		flex-direction    : column;
+		align-items       : center;
+		span{color        : white;}
+		width: 100%;
+		img{
+			@include from(s){
+				width: 100%;
+				height: auto;
+			}
+			@include from(m){
+				width:100%;
+				height: auto;
+			}
+			min-height: 50px;
+			max-height: 100px;
+		}
+	}
+}
+.prefooter-container {
+	.container__slider{
+		min-height: 150px;
+	}
+}
+#customize-toggle1, #customize-toggle2,#customize-toggle3,#customize-toggle4 {
+	display: none;
+}
+.main-iframe-container{
+	margin-top: 20px;
+}

@@ -1,0 +1,153 @@
+.casino-container{
+	background-color: #333;
+	padding: 20px;
+	border-radius: 10px;
+	h2{
+		color: var(--secondari-color);
+		text-align: start;
+	}
+	p{
+		color: white;
+	}
+	&-betslip{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		&-img1{
+			width: 100%;
+			border-radius: 10px;
+			box-shadow: 0 0 15px #000;
+			@include from(m){
+				width: 40%;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				border-radius: 10px;
+			}
+		}
+		&-img2{
+			width: 100%;
+			border-radius: 10px;
+			box-shadow: 0 0 15px #000;
+			margin-top: 30px;
+			@include from(m){
+				width: 40%;
+				margin-top: 0px;
+			}
+			img{
+				border-radius: 10px;
+			}
+		}
+	}
+	&-galery-content{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+	&-galery{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 20px;
+		width: 90%;
+		@include from(m){
+			justify-content: start;
+		}
+		&-item{
+			display: flex;
+			align-items: center;
+			max-width: 160px;
+			height: 150px;
+			background-color: #000;
+			padding: 15px;
+			margin-bottom: 20px;
+			margin-left: 10px;
+			margin-right: 10px;
+			border-radius: 10px;
+			box-shadow: 0 0 15px #000;
+		}	
+	}
+	.galery-item{
+		border-radius: 10px;
+		box-shadow: 0 0 15px #000;
+		img{
+			border-radius: 10px;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.casino-vivo{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+}
+.games-container-galery-item{
+	border: 1px solid var(--secondari-color);
+	padding: 5px;
+	background-color: var(--main-color);
+	border-radius: 10px;
+	&-buttons{
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.btn{
+	padding: 5px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.sign-up-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.sign-up{
+	background-color: var(--secondari-color);
+	color:white;
+	border: 1px solid white;
+	transition: background-color, color, border, .5s;
+	&:hover{
+		background-color: #333;
+		color: var(--secondari-color);
+		border: 1px solid var(--secondari-color);
+		text-decoration: none;
+	}
+	&-casino{
+		width: 100%;
+		border-radius: 0%;
+		border: 0px ;
+	}
+
+	&_main{
+		background-color: var(--secondari-color);
+		text-transform: uppercase;
+		font-weight: 700;
+		transition: background-color, color, border, scale .5s;
+		color: white;
+		&:hover{
+			scale: 1.1;
+			color: var(--secondari-color);
+			background-color: #333;
+			border-color: var(--secondari-color);
+		}
+	}
+	
+}
+.play-for-fun{
+	background-color: var(--secondary-color);
+	color: #333;
+	border: 1px solid var(--secondary-color);
+	transition: background-color, color, border, .5s;
+	&:hover{
+		background-color: white;
+		color: #333;
+		border: 1px solid var(--secondary-color);
+	}
+}

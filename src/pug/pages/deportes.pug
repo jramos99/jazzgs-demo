@@ -1,0 +1,12 @@
+extends ../config/template
+append config
+	-currentPage		= "deportes"
+	-siteName			= 'JazzGS'
+	-content			= 'content'
+	-pageDescription	= ''
+block main-header
+block main-container
+	include ../components/deportes-content.pug
+	include ../components/prefooter.pug
+block main-footer
+block scripts

@@ -1,0 +1,15 @@
+div(class="container")
+		div(class='ed-grid s-grid-4 rows-gap')
+			div(class='s-cols-4 l-cols-4')
+				div(class='container__slider tns-mobile')
+					button#customize-toggle1
+					div(class='tns-single ' id='tnsSingleMobile')
+						-for(var i = 0; i < slides.length ; i++)
+							div: div(class='tns-single__content'): img(src=`${slides[i].link}`, alt=`${slides[i].name}`)
+				div(class='container__slider tns-desktop')
+					button#customize-toggle2
+					div(class='tns-single' id='tnsSingleDesktop')
+						-for(var i = 0; i < slidesDesktop.length ; i++)
+							div: div(class='tns-single__content'): img(src=`${slidesDesktop[i].link}`, alt=`${slidesDesktop[i].name}`)
+				div(class="main-iframe-container") 				
+					iframe(src='https://jazzgsdemo.com/mainbk/betslip' width='100%' height='530' frameborder='0' scrolling='0' title='signup')
